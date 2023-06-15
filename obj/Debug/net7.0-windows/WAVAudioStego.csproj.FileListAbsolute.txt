@@ -1,0 +1,17 @@
+C:\Users\gadre\Documents\GitHub\Stego\WAVAudioStego\bin\Debug\net7.0-windows\WAVAudioStego.exe
+C:\Users\gadre\Documents\GitHub\Stego\WAVAudioStego\bin\Debug\net7.0-windows\WAVAudioStego.deps.json
+C:\Users\gadre\Documents\GitHub\Stego\WAVAudioStego\bin\Debug\net7.0-windows\WAVAudioStego.runtimeconfig.json
+C:\Users\gadre\Documents\GitHub\Stego\WAVAudioStego\bin\Debug\net7.0-windows\WAVAudioStego.dll
+C:\Users\gadre\Documents\GitHub\Stego\WAVAudioStego\bin\Debug\net7.0-windows\WAVAudioStego.pdb
+C:\Users\gadre\Documents\GitHub\Stego\WAVAudioStego\obj\Debug\net7.0-windows\WAVAudioStego.csproj.AssemblyReference.cache
+C:\Users\gadre\Documents\GitHub\Stego\WAVAudioStego\obj\Debug\net7.0-windows\WAVAudioStego.Main.resources
+C:\Users\gadre\Documents\GitHub\Stego\WAVAudioStego\obj\Debug\net7.0-windows\WAVAudioStego.csproj.GenerateResource.cache
+C:\Users\gadre\Documents\GitHub\Stego\WAVAudioStego\obj\Debug\net7.0-windows\WAVAudioStego.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gadre\Documents\GitHub\Stego\WAVAudioStego\obj\Debug\net7.0-windows\WAVAudioStego.AssemblyInfoInputs.cache
+C:\Users\gadre\Documents\GitHub\Stego\WAVAudioStego\obj\Debug\net7.0-windows\WAVAudioStego.AssemblyInfo.cs
+C:\Users\gadre\Documents\GitHub\Stego\WAVAudioStego\obj\Debug\net7.0-windows\WAVAudioStego.csproj.CoreCompileInputs.cache
+C:\Users\gadre\Documents\GitHub\Stego\WAVAudioStego\obj\Debug\net7.0-windows\WAVAudioStego.dll
+C:\Users\gadre\Documents\GitHub\Stego\WAVAudioStego\obj\Debug\net7.0-windows\refint\WAVAudioStego.dll
+C:\Users\gadre\Documents\GitHub\Stego\WAVAudioStego\obj\Debug\net7.0-windows\WAVAudioStego.pdb
+C:\Users\gadre\Documents\GitHub\Stego\WAVAudioStego\obj\Debug\net7.0-windows\WAVAudioStego.genruntimeconfig.cache
+C:\Users\gadre\Documents\GitHub\Stego\WAVAudioStego\obj\Debug\net7.0-windows\ref\WAVAudioStego.dll

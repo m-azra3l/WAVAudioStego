@@ -1,0 +1,1545 @@
+namespace WAVAudioStego
+{
+    partial class Main
+    {
+        // <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
+            this.decodeTab = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.lblWarning = new System.Windows.Forms.Label();
+            this.lblTextLength = new System.Windows.Forms.Label();
+            this.lblMaxTextLength = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnUploadPublicKeyEncode = new System.Windows.Forms.Button();
+            this.txtPublicKeyEncode = new System.Windows.Forms.TextBox();
+            this.txtTextFilePathEncode = new System.Windows.Forms.TextBox();
+            this.btnUploadTextFileEncode = new System.Windows.Forms.Button();
+            this.btnEncode = new System.Windows.Forms.Button();
+            this.txtAudioPathEncode = new System.Windows.Forms.TextBox();
+            this.progressEncode = new System.Windows.Forms.ProgressBar();
+            this.btnUploadAudioEncode = new System.Windows.Forms.Button();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnUploadPrivateKeyDecode = new System.Windows.Forms.Button();
+            this.txtPrivateKeyDecode = new System.Windows.Forms.TextBox();
+            this.btnDecode = new System.Windows.Forms.Button();
+            this.progressDecode = new System.Windows.Forms.ProgressBar();
+            this.txtAudioPathDecode = new System.Windows.Forms.TextBox();
+            this.btnUploadAudioDecode = new System.Windows.Forms.Button();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.keyProgress = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.progressBar = new System.Windows.Forms.ProgressBar();
+            this.generateKeys = new System.Windows.Forms.Button();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.decodeTab.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.tabPage4.SuspendLayout();
+            this.tabControl1.SuspendLayout();
+            this.tabPage5.SuspendLayout();
+            this.tabPage6.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // decodeTab
+            // 
+            this.decodeTab.Controls.Add(this.tabPage1);
+            this.decodeTab.Controls.Add(this.tabPage2);
+            this.decodeTab.Controls.Add(this.tabPage3);
+            this.decodeTab.Controls.Add(this.tabPage4);
+            this.decodeTab.Location = new System.Drawing.Point(-1, 3);
+            this.decodeTab.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.decodeTab.Name = "decodeTab";
+            this.decodeTab.SelectedIndex = 0;
+            this.decodeTab.Size = new System.Drawing.Size(490, 421);
+            this.decodeTab.TabIndex = 0;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.lblWarning);
+            this.tabPage1.Controls.Add(this.lblTextLength);
+            this.tabPage1.Controls.Add(this.lblMaxTextLength);
+            this.tabPage1.Controls.Add(this.label2);
+            this.tabPage1.Controls.Add(this.btnUploadPublicKeyEncode);
+            this.tabPage1.Controls.Add(this.txtPublicKeyEncode);
+            this.tabPage1.Controls.Add(this.txtTextFilePathEncode);
+            this.tabPage1.Controls.Add(this.btnUploadTextFileEncode);
+            this.tabPage1.Controls.Add(this.btnEncode);
+            this.tabPage1.Controls.Add(this.txtAudioPathEncode);
+            this.tabPage1.Controls.Add(this.progressEncode);
+            this.tabPage1.Controls.Add(this.btnUploadAudioEncode);
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage1.Size = new System.Drawing.Size(482, 388);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Embed";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // lblWarning
+            // 
+            this.lblWarning.AutoSize = true;
+            this.lblWarning.ForeColor = System.Drawing.Color.Black;
+            this.lblWarning.Location = new System.Drawing.Point(11, 175);
+            this.lblWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblWarning.Name = "lblWarning";
+            this.lblWarning.Size = new System.Drawing.Size(0, 20);
+            this.lblWarning.TabIndex = 19;
+            // 
+            // lblTextLength
+            // 
+            this.lblTextLength.AutoSize = true;
+            this.lblTextLength.Location = new System.Drawing.Point(11, 120);
+            this.lblTextLength.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblTextLength.Name = "lblTextLength";
+            this.lblTextLength.Size = new System.Drawing.Size(85, 20);
+            this.lblTextLength.TabIndex = 18;
+            this.lblTextLength.Text = "Text length:";
+            // 
+            // lblMaxTextLength
+            // 
+            this.lblMaxTextLength.AutoSize = true;
+            this.lblMaxTextLength.Location = new System.Drawing.Point(11, 10);
+            this.lblMaxTextLength.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblMaxTextLength.Name = "lblMaxTextLength";
+            this.lblMaxTextLength.Size = new System.Drawing.Size(179, 20);
+            this.lblMaxTextLength.TabIndex = 17;
+            this.lblMaxTextLength.Text = "Max available text length:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(11, 316);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(68, 20);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "Progress:";
+            // 
+            // btnUploadPublicKeyEncode
+            // 
+            this.btnUploadPublicKeyEncode.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnUploadPublicKeyEncode.Location = new System.Drawing.Point(341, 241);
+            this.btnUploadPublicKeyEncode.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnUploadPublicKeyEncode.Name = "btnUploadPublicKeyEncode";
+            this.btnUploadPublicKeyEncode.Size = new System.Drawing.Size(128, 27);
+            this.btnUploadPublicKeyEncode.TabIndex = 14;
+            this.btnUploadPublicKeyEncode.Text = "Select key";
+            this.btnUploadPublicKeyEncode.UseVisualStyleBackColor = true;
+            this.btnUploadPublicKeyEncode.Click += new System.EventHandler(this.btnUploadPublicKeyEncode_Click);
+            // 
+            // txtPublicKeyEncode
+            // 
+            this.txtPublicKeyEncode.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtPublicKeyEncode.Location = new System.Drawing.Point(9, 241);
+            this.txtPublicKeyEncode.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtPublicKeyEncode.Name = "txtPublicKeyEncode";
+            this.txtPublicKeyEncode.PlaceholderText = "Public embed key (.xml)";
+            this.txtPublicKeyEncode.Size = new System.Drawing.Size(326, 27);
+            this.txtPublicKeyEncode.TabIndex = 11;
+            // 
+            // txtTextFilePathEncode
+            // 
+            this.txtTextFilePathEncode.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtTextFilePathEncode.Location = new System.Drawing.Point(10, 144);
+            this.txtTextFilePathEncode.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtTextFilePathEncode.Name = "txtTextFilePathEncode";
+            this.txtTextFilePathEncode.PlaceholderText = "Text file (.txt)";
+            this.txtTextFilePathEncode.Size = new System.Drawing.Size(325, 27);
+            this.txtTextFilePathEncode.TabIndex = 8;
+            // 
+            // btnUploadTextFileEncode
+            // 
+            this.btnUploadTextFileEncode.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnUploadTextFileEncode.Location = new System.Drawing.Point(341, 144);
+            this.btnUploadTextFileEncode.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnUploadTextFileEncode.Name = "btnUploadTextFileEncode";
+            this.btnUploadTextFileEncode.Size = new System.Drawing.Size(128, 27);
+            this.btnUploadTextFileEncode.TabIndex = 7;
+            this.btnUploadTextFileEncode.Text = "Select file";
+            this.btnUploadTextFileEncode.UseVisualStyleBackColor = true;
+            this.btnUploadTextFileEncode.Click += new System.EventHandler(this.btnUploadTextFile_Click);
+            // 
+            // btnEncode
+            // 
+            this.btnEncode.Enabled = false;
+            this.btnEncode.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnEncode.Location = new System.Drawing.Point(341, 340);
+            this.btnEncode.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnEncode.Name = "btnEncode";
+            this.btnEncode.Size = new System.Drawing.Size(128, 27);
+            this.btnEncode.TabIndex = 6;
+            this.btnEncode.Text = "Embed";
+            this.btnEncode.UseVisualStyleBackColor = true;
+            this.btnEncode.Click += new System.EventHandler(this.btnEncode_Click);
+            // 
+            // txtAudioPathEncode
+            // 
+            this.txtAudioPathEncode.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtAudioPathEncode.Location = new System.Drawing.Point(10, 34);
+            this.txtAudioPathEncode.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAudioPathEncode.Name = "txtAudioPathEncode";
+            this.txtAudioPathEncode.PlaceholderText = "Audio file (.wav)";
+            this.txtAudioPathEncode.Size = new System.Drawing.Size(325, 27);
+            this.txtAudioPathEncode.TabIndex = 2;
+            // 
+            // progressEncode
+            // 
+            this.progressEncode.Location = new System.Drawing.Point(11, 340);
+            this.progressEncode.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.progressEncode.Name = "progressEncode";
+            this.progressEncode.Size = new System.Drawing.Size(324, 27);
+            this.progressEncode.Step = 1;
+            this.progressEncode.TabIndex = 1;
+            // 
+            // btnUploadAudioEncode
+            // 
+            this.btnUploadAudioEncode.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnUploadAudioEncode.Location = new System.Drawing.Point(339, 34);
+            this.btnUploadAudioEncode.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnUploadAudioEncode.Name = "btnUploadAudioEncode";
+            this.btnUploadAudioEncode.Size = new System.Drawing.Size(128, 27);
+            this.btnUploadAudioEncode.TabIndex = 0;
+            this.btnUploadAudioEncode.Text = "Select audio";
+            this.btnUploadAudioEncode.UseVisualStyleBackColor = true;
+            this.btnUploadAudioEncode.Click += new System.EventHandler(this.btnUploadAudioEncode_Click);
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.label3);
+            this.tabPage2.Controls.Add(this.btnUploadPrivateKeyDecode);
+            this.tabPage2.Controls.Add(this.txtPrivateKeyDecode);
+            this.tabPage2.Controls.Add(this.btnDecode);
+            this.tabPage2.Controls.Add(this.progressDecode);
+            this.tabPage2.Controls.Add(this.txtAudioPathDecode);
+            this.tabPage2.Controls.Add(this.btnUploadAudioDecode);
+            this.tabPage2.Location = new System.Drawing.Point(4, 29);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage2.Size = new System.Drawing.Size(482, 388);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Extract";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(11, 314);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(68, 20);
+            this.label3.TabIndex = 17;
+            this.label3.Text = "Progress:";
+            // 
+            // btnUploadPrivateKeyDecode
+            // 
+            this.btnUploadPrivateKeyDecode.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnUploadPrivateKeyDecode.Location = new System.Drawing.Point(339, 184);
+            this.btnUploadPrivateKeyDecode.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnUploadPrivateKeyDecode.Name = "btnUploadPrivateKeyDecode";
+            this.btnUploadPrivateKeyDecode.Size = new System.Drawing.Size(128, 27);
+            this.btnUploadPrivateKeyDecode.TabIndex = 16;
+            this.btnUploadPrivateKeyDecode.Text = "Select key";
+            this.btnUploadPrivateKeyDecode.UseVisualStyleBackColor = true;
+            this.btnUploadPrivateKeyDecode.Click += new System.EventHandler(this.btnUploadPrivateKeyDecode_Click);
+            // 
+            // txtPrivateKeyDecode
+            // 
+            this.txtPrivateKeyDecode.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtPrivateKeyDecode.Location = new System.Drawing.Point(10, 184);
+            this.txtPrivateKeyDecode.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtPrivateKeyDecode.Name = "txtPrivateKeyDecode";
+            this.txtPrivateKeyDecode.PlaceholderText = "Extraction key (.xml)";
+            this.txtPrivateKeyDecode.Size = new System.Drawing.Size(325, 27);
+            this.txtPrivateKeyDecode.TabIndex = 13;
+            // 
+            // btnDecode
+            // 
+            this.btnDecode.Enabled = false;
+            this.btnDecode.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnDecode.Location = new System.Drawing.Point(339, 338);
+            this.btnDecode.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnDecode.Name = "btnDecode";
+            this.btnDecode.Size = new System.Drawing.Size(128, 27);
+            this.btnDecode.TabIndex = 7;
+            this.btnDecode.Text = "Extract";
+            this.btnDecode.UseVisualStyleBackColor = true;
+            this.btnDecode.Click += new System.EventHandler(this.btnDecode_Click);
+            // 
+            // progressDecode
+            // 
+            this.progressDecode.Location = new System.Drawing.Point(11, 338);
+            this.progressDecode.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.progressDecode.Name = "progressDecode";
+            this.progressDecode.Size = new System.Drawing.Size(324, 27);
+            this.progressDecode.Step = 1;
+            this.progressDecode.TabIndex = 5;
+            // 
+            // txtAudioPathDecode
+            // 
+            this.txtAudioPathDecode.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtAudioPathDecode.Location = new System.Drawing.Point(10, 29);
+            this.txtAudioPathDecode.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAudioPathDecode.Name = "txtAudioPathDecode";
+            this.txtAudioPathDecode.PlaceholderText = "Audio file (.wav)";
+            this.txtAudioPathDecode.Size = new System.Drawing.Size(325, 27);
+            this.txtAudioPathDecode.TabIndex = 4;
+            // 
+            // btnUploadAudioDecode
+            // 
+            this.btnUploadAudioDecode.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnUploadAudioDecode.Location = new System.Drawing.Point(339, 29);
+            this.btnUploadAudioDecode.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnUploadAudioDecode.Name = "btnUploadAudioDecode";
+            this.btnUploadAudioDecode.Size = new System.Drawing.Size(128, 27);
+            this.btnUploadAudioDecode.TabIndex = 3;
+            this.btnUploadAudioDecode.Text = "Select  audio";
+            this.btnUploadAudioDecode.UseVisualStyleBackColor = true;
+            this.btnUploadAudioDecode.Click += new System.EventHandler(this.btnUploadAudioDecode_Click);
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.keyProgress);
+            this.tabPage3.Controls.Add(this.textBox3);
+            this.tabPage3.Controls.Add(this.progressBar);
+            this.tabPage3.Controls.Add(this.generateKeys);
+            this.tabPage3.Location = new System.Drawing.Point(4, 29);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(482, 388);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Generate Keys";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // keyProgress
+            // 
+            this.keyProgress.AutoSize = true;
+            this.keyProgress.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.keyProgress.Location = new System.Drawing.Point(20, 310);
+            this.keyProgress.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.keyProgress.Name = "keyProgress";
+            this.keyProgress.Size = new System.Drawing.Size(68, 20);
+            this.keyProgress.TabIndex = 19;
+            this.keyProgress.Text = "Progress:";
+            this.keyProgress.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(20, 21);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
+            this.textBox3.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBox3.Size = new System.Drawing.Size(438, 274);
+            this.textBox3.TabIndex = 18;
+            this.textBox3.Text = resources.GetString("textBox3.Text");
+            // 
+            // progressBar
+            // 
+            this.progressBar.Location = new System.Drawing.Point(20, 334);
+            this.progressBar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.progressBar.Name = "progressBar";
+            this.progressBar.Size = new System.Drawing.Size(350, 34);
+            this.progressBar.Step = 1;
+            this.progressBar.TabIndex = 17;
+            // 
+            // generateKeys
+            // 
+            this.generateKeys.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.generateKeys.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.generateKeys.Location = new System.Drawing.Point(376, 334);
+            this.generateKeys.Name = "generateKeys";
+            this.generateKeys.Size = new System.Drawing.Size(82, 34);
+            this.generateKeys.TabIndex = 16;
+            this.generateKeys.Text = "Generate";
+            this.generateKeys.UseVisualStyleBackColor = true;
+            this.generateKeys.Click += new System.EventHandler(this.generateKeys_Click);
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.tabControl1);
+            this.tabPage4.Location = new System.Drawing.Point(4, 29);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(482, 388);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "About/Help";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage5);
+            this.tabControl1.Controls.Add(this.tabPage6);
+            this.tabControl1.Location = new System.Drawing.Point(0, 3);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(482, 388);
+            this.tabControl1.TabIndex = 0;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Controls.Add(this.textBox1);
+            this.tabPage5.Location = new System.Drawing.Point(4, 29);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(474, 355);
+            this.tabPage5.TabIndex = 0;
+            this.tabPage5.Text = "About";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(6, 6);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBox1.Size = new System.Drawing.Size(462, 342);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.Text = resources.GetString("textBox1.Text");
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.Controls.Add(this.textBox2);
+            this.tabPage6.Location = new System.Drawing.Point(4, 29);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(474, 355);
+            this.tabPage6.TabIndex = 1;
+            this.tabPage6.Text = "Help";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(6, 6);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBox2.Size = new System.Drawing.Size(462, 342);
+            this.textBox2.TabIndex = 1;
+            this.textBox2.Text = resources.GetString("textBox2.Text");
+            // 
+            // Main
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(489, 422);
+            this.Controls.Add(this.decodeTab);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MaximizeBox = false;
+            this.Name = "Main";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "WAVAudioStego";
+            this.decodeTab.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            this.tabPage4.ResumeLayout(false);
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage5.ResumeLayout(false);
+            this.tabPage5.PerformLayout();
+            this.tabPage6.ResumeLayout(false);
+            this.tabPage6.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private TabControl decodeTab;
+        private TabPage tabPage1;
+        private TextBox txtTextFilePathEncode;
+        private Button btnUploadTextFileEncode;
+        private Button btnEncode;
+        private TextBox txtAudioPathEncode;
+        private ProgressBar progressEncode;
+        private Button btnUploadAudioEncode;
+        private TabPage tabPage2;
+        private Button btnDecode;
+        private ProgressBar progressDecode;
+        private TextBox txtAudioPathDecode;
+        private Button btnUploadAudioDecode;
+        private TextBox txtPublicKeyEncode;
+        private Label lblSecretKeyDecode;
+        private TextBox txtPrivateKeyDecode;
+        private Button btnUploadPublicKeyEncode;
+        private Button btnUploadPrivateKeyDecode;
+        private TabPage tabPage3;
+        private TextBox textBox3;
+        private ProgressBar progressBar;
+        private Button generateKeys;
+        private TabPage tabPage4;
+        private TabControl tabControl1;
+        private TabPage tabPage5;
+        private TextBox textBox1;
+        private TabPage tabPage6;
+        private TextBox textBox2;
+        private Label label2;
+        private Label label3;
+        private Label keyProgress;
+        private Label lblTextLength;
+        private Label lblMaxTextLength;
+        private Label lblWarning;
+    }
+}
+
+using System.Security.Cryptography;
+using System.Xml;
+
+namespace WAVAudioStego
+{
+    public partial class Main : Form
+    {
+        public Main()
+        {
+            InitializeComponent();
+        }
+
+        public int maxTextLength;
+
+        private void btnUploadAudioEncode_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dialog = new OpenFileDialog();
+            dialog.Filter = "Wave Audio Files (*.wav)|*.wav";
+            dialog.Title = "Select a Wave Audio File";
+            if (dialog.ShowDialog() == DialogResult.OK)
+            {
+                txtAudioPathEncode.Text = dialog.FileName;
+            }
+            else
+            {
+                txtAudioPathEncode.Text = "";
+                return;
+            }
+            // Calculate the maximum length of a text message that can be encoded into the selected WAV audio file
+            byte[] audioData = File.ReadAllBytes(dialog.FileName);
+            int headerOffset = Helper.GetWavDataOffset(audioData);
+            int availableBytes = audioData.Length - headerOffset;
+            maxTextLength = (availableBytes - 32) / 8;
+
+            // Display the maximum length of a text message that can be encoded into the selected WAV audio file in a label
+            lblMaxTextLength.Text = $"Max avaiblable text length: {maxTextLength} characters";
+        }
+
+        private void btnUploadTextFile_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dialog = new OpenFileDialog();
+            dialog.Filter = "Text Files (.txt)|*.txt";
+            dialog.Title = "Select a Text File";
+            if (dialog.ShowDialog() == DialogResult.OK)
+            {
+                txtTextFilePathEncode.Text = dialog.FileName;
+            }
+            else
+            {
+                txtTextFilePathEncode.Text = "";
+                return;
+            }
+            // Read the contents of the selected text file and calculate its length
+            string textData = File.ReadAllText(dialog.FileName);
+            int textLength = textData.Length;
+
+            // Display the length of the selected text file in a label
+            lblTextLength.Text = $"Text length: {textLength} characters";
+
+            // Compare the length of the selected text file with the maximum length of a text message that can be encoded into the selected WAV audio file
+            if (textLength > maxTextLength)
+            {
+                lblWarning.ForeColor = Color.Red;
+                lblWarning.Text = "Warning: text is too long";
+            }
+            else
+            {
+                lblWarning.ForeColor = Color.Black;
+                lblWarning.Text = "";
+            }
+        }
+
+        private void btnUploadPublicKeyEncode_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dialog = new OpenFileDialog();
+            dialog.Filter = "Public Key (.xml)|*.xml";
+            dialog.Title = "Select a Public Key";
+            if (dialog.ShowDialog() == DialogResult.OK)
+            {
+                txtPublicKeyEncode.Text = dialog.FileName;
+                btnEncode.Enabled = true;
+            }
+            else
+            {
+                txtPublicKeyEncode.Text = "";
+                btnEncode.Enabled = false;
+                return;
+            }
+        }
+
+        private async void btnEncode_Click(object sender, EventArgs e)
+        {
+            progressEncode.Value = 0;
+            btnEncode.Enabled = false;
+            string filePath = txtTextFilePathEncode.Text;
+            byte[]? audioData = File.ReadAllBytes(txtAudioPathEncode.Text);
+
+            label2.Text = "Progress: Reading wav file...";
+
+            if (!Helper.IsValidWavFile(audioData))
+            {
+                MessageBox.Show("Invalid .wav file.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                label2.Text = "Progress:";
+                txtAudioPathEncode.Text = "";
+                progressEncode.Value = 0;
+                return;
+            }
+
+            label2.Text = "Progress: Reading text file...";
+
+            if (!Helper.IsValidTxtFile(filePath))
+            {
+                MessageBox.Show("Invalid .txt file.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                label2.Text = "Progress:";
+                txtTextFilePathEncode.Text = "";
+                progressEncode.Value = 0;
+                return;
+            }
+
+            string textData = File.ReadAllText(txtTextFilePathEncode.Text);
+
+
+            string xmlfilePath = txtPublicKeyEncode.Text;
+            label2.Text = "Progress: Reading encoding key file...";
+
+            if (!Helper.IsValidXmlFile(xmlfilePath))
+            {
+                MessageBox.Show("Invalid .xml file.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                label2.Text = "Progress:";
+                txtPublicKeyEncode.Text = "";
+                progressEncode.Value = 0;
+                return;
+            }
+
+            RSAParameters publicKey;
+            try
+            {
+                publicKey = Helper.ReadPublicKeyFromXmlFile(txtPublicKeyEncode.Text);
+            }
+            catch (Exception ex)
+            {
+                // Handle the exception here
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                label2.Text = "Progress:";
+                txtPublicKeyEncode.Text = "";
+                progressEncode.Value = 0;
+                return;
+            }
+            label2.Text = "Progress: Reading encoding key from file...";
+            progressEncode.Value = 25;
+
+            byte[]? encryptedText = await Helper.EncryptMessage(textData, publicKey);
+            label2.Text = "Progress: Encrypting file...";
+            progressEncode.Value = 50;
+
+            byte[]? encodedAudioData = Helper.EncodeAudio(audioData, encryptedText);
+            label2.Text = "Progress: Injecting audio with encrypted data...";
+            progressEncode.Value = 75;
+
+            if (encodedAudioData != null)
+            {
+                SaveFileDialog dialog = new();
+                dialog.Filter = "Wave Audio Files (*.wav)|*.wav";
+                dialog.Title = "Select a Wave Audio File";
+                if (dialog.ShowDialog() == DialogResult.OK)
+                {
+                    label2.Text = "Progress: Saving resulting audio file...";
+                    File.WriteAllBytes(dialog.FileName, encodedAudioData);
+                    progressEncode.Value = 100;
+                    MessageBox.Show("Data embedded and saved successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else return;
+                label2.Text = "Progress:";
+                txtAudioPathEncode.Text = "";
+                txtTextFilePathEncode.Text = "";
+                txtPublicKeyEncode.Text = "";
+                progressEncode.Value = 0;
+            }
+            else
+            {
+                progressDecode.Value = 0;
+                MessageBox.Show("Embedding failed.\n The message might be too large for the audio file.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            }
+        }
+
+        private void btnUploadAudioDecode_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dialog = new OpenFileDialog();
+            dialog.Filter = "Wave Audio Files (*.wav)|*.wav";
+            dialog.Title = "Select a Wave Audio File";
+            if (dialog.ShowDialog() == DialogResult.OK)
+            {
+                txtAudioPathDecode.Text = dialog.FileName;
+            }
+            else
+            {
+                txtAudioPathDecode.Text = "";
+                return;
+            }
+        }
+
+        private void btnUploadPrivateKeyDecode_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dialog = new OpenFileDialog();
+            dialog.Filter = "Private Key (.xml)|*.xml";
+            dialog.Title = "Select a Private Key";
+            if (dialog.ShowDialog() == DialogResult.OK)
+            {
+                txtPrivateKeyDecode.Text = dialog.FileName;
+                btnDecode.Enabled = true;
+            }
+            else
+            {
+                txtPrivateKeyDecode.Text = "";
+                btnDecode.Enabled = false;
+                return;
+            }
+        }
+
+        private async void btnDecode_Click(object sender, EventArgs e)
+        {
+            progressDecode.Value = 0;
+            btnDecode.Enabled = false;
+            byte[]? encodedAudioData = File.ReadAllBytes(txtAudioPathDecode.Text);
+            label3.Text = "Progress: Reading audio file...";
+
+            if (!Helper.IsValidWavFile(encodedAudioData))
+            {
+                MessageBox.Show("Invalid .wav file.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                label3.Text = "Progress:";
+                txtAudioPathDecode.Text = "";
+                progressDecode.Value = 0;
+                return;
+            }
+
+            string xmlfilePath = txtPrivateKeyDecode.Text;
+            label3.Text = "Progress: Reading extraction key file...";
+
+            if (!Helper.IsValidXmlFile(xmlfilePath))
+            {
+                MessageBox.Show("Invalid .xml file.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+
+                label3.Text = "Progress:";
+                txtPrivateKeyDecode.Text = "";
+                progressDecode.Value = 0;
+                return;
+            }
+
+            RSAParameters privateKey;
+            try
+            {
+                privateKey = Helper.ReadPrivateKeyFromXmlFile(txtPrivateKeyDecode.Text);
+            }
+            catch (Exception ex)
+            {
+                // Handle the exception here
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                label3.Text = "Progress:";
+                txtPrivateKeyDecode.Text = "";
+                progressDecode.Value = 0;
+                return;
+            }
+            label3.Text = "Progress: Reading extraction key from file...";
+            progressDecode.Value = 25;
+
+            byte[]? decodedTextFromAudio = Helper.DecodeAudio(encodedAudioData);
+            label3.Text = "Progress: Extracting embedded file...";
+            progressDecode.Value = 50;
+
+            var (decryptedText, errorMessage) = await Helper.DecryptMessage(decodedTextFromAudio, privateKey);
+            if (errorMessage != null)
+            {
+                // Handle error
+                MessageBox.Show(errorMessage,"Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+
+                label3.Text = "Progress:";
+                txtPrivateKeyDecode.Text = "";
+                progressDecode.Value = 0;
+                return;
+            }
+
+            label3.Text = "Progress: Decrypting embedded file...";
+            progressDecode.Value = 75;
+
+            if (decryptedText != null)
+            {
+                SaveFileDialog dialog = new();
+                dialog.Filter = "Text Files (.txt)|*.txt";
+                dialog.Title = "Select a Text File";
+                if (dialog.ShowDialog() == DialogResult.OK)
+                {
+                    File.WriteAllText(dialog.FileName, decryptedText);
+                    label3.Text = "Progress: Saving decrypted file...";
+                    progressDecode.Value = 100;
+                    MessageBox.Show("File extracted and saved successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else return;
+                label3.Text = "Progress:";
+                txtAudioPathDecode.Text = "";
+                txtPrivateKeyDecode.Text = "";
+                progressDecode.Value = 0;
+            }
+            else
+            {
+                MessageBox.Show("Extraction failed.\n There might be something wrong with the audio file!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            }
+        }
+
+        private void generateKeys_Click(object sender, EventArgs e)
+        {
+            using (var rsa = new RSACryptoServiceProvider())
+            {
+                keyProgress.Text = "Progress: Generating pair keys...";
+                progressBar.Value = 25;
+
+                var publicKey = rsa.ToXmlString(false);
+                var privateKey = rsa.ToXmlString(true);
+
+                keyProgress.Text = "Progress: Generating pair keys...";
+                progressBar.Value = 50;
+
+                var saveFileDialog = new SaveFileDialog();
+                saveFileDialog.Filter = "XML files (*.xml)|*.xml";
+                saveFileDialog.Title = "Save pair keys";
+                saveFileDialog.ShowDialog();
+
+                if (saveFileDialog.FileName != "")
+                {
+                    keyProgress.Text = "Progress: Saving pair keys...";
+                    progressBar.Value = 75;
+
+                    var publicKeyXml = new XmlDocument();
+                    publicKeyXml.LoadXml(publicKey);
+                    publicKeyXml.Save(saveFileDialog.FileName + "_public_key.xml");
+
+                    var privateKeyXml = new XmlDocument();
+                    privateKeyXml.LoadXml(privateKey);
+                    privateKeyXml.Save(saveFileDialog.FileName + "_private_key.xml");
+
+                    keyProgress.Text = "Progress: Completed...";
+                    progressBar.Value = 100;
+                    MessageBox.Show("Generated pair keys successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else return;
+
+                keyProgress.Text = "Progress:";
+                progressBar.Value = 0;
+            }
+        }
+    }
+}
+using System.Security.Cryptography;
+using System.Text;
+using System.Xml;
+
+namespace WAVAudioStego
+{
+    public static class Helper
+    {
+        public static async Task<byte[]> EncryptMessage(string message, RSAParameters publickey)
+        {
+            using Aes aes = Aes.Create();
+            using RSACryptoServiceProvider rsa = new();
+            byte[] encryptedData;
+            using MemoryStream output = new();
+            using CryptoStream cryptoStream = new(output, aes.CreateEncryptor(), CryptoStreamMode.Write);
+            await cryptoStream.WriteAsync(Encoding.Unicode.GetBytes(message));
+            await cryptoStream.FlushFinalBlockAsync();
+            encryptedData = output.ToArray();
+
+            rsa.ImportParameters(publickey);
+            byte[] encryptedKey = rsa.Encrypt(aes.Key, RSAEncryptionPadding.Pkcs1);
+            byte[] encryptedIV = rsa.Encrypt(aes.IV, RSAEncryptionPadding.Pkcs1);
+
+            byte[] result = new byte[encryptedKey.Length + encryptedIV.Length + encryptedData.Length];
+            Buffer.BlockCopy(encryptedKey, 0, result, 0, encryptedKey.Length);
+            Buffer.BlockCopy(encryptedIV, 0, result, encryptedKey.Length, encryptedIV.Length);
+            Buffer.BlockCopy(encryptedData, 0, result, encryptedKey.Length + encryptedIV.Length, encryptedData.Length);
+
+            return result;
+        }
+
+        public static async Task<(string, string)> DecryptMessage(byte[] encryptedMessage, RSAParameters privateKey)
+        {
+            try
+            {
+                using RSACryptoServiceProvider rsa = new();
+                rsa.ImportParameters(privateKey);
+
+                int keySize = rsa.KeySize / 8;
+                byte[] encryptedKey = new byte[keySize];
+                byte[] encryptedIV = new byte[keySize];
+                byte[] encryptedData = new byte[encryptedMessage.Length - 2 * keySize];
+
+                Buffer.BlockCopy(encryptedMessage, 0, encryptedKey, 0, keySize);
+                Buffer.BlockCopy(encryptedMessage, keySize, encryptedIV, 0, keySize);
+                Buffer.BlockCopy(encryptedMessage, 2 * keySize, encryptedData, 0, encryptedData.Length);
+
+                byte[] decryptedKey = rsa.Decrypt(encryptedKey, RSAEncryptionPadding.Pkcs1);
+                byte[] decryptedIV = rsa.Decrypt(encryptedIV, RSAEncryptionPadding.Pkcs1);
+
+                using Aes aes = Aes.Create();
+                aes.Key = decryptedKey;
+                aes.IV = decryptedIV;
+
+                byte[] decryptedData;
+                using MemoryStream output = new();
+                using CryptoStream cryptoStream = new(output, aes.CreateDecryptor(), CryptoStreamMode.Write);
+                await cryptoStream.WriteAsync(encryptedData);
+                await cryptoStream.FlushFinalBlockAsync();
+                decryptedData = output.ToArray();
+
+                return (Encoding.Unicode.GetString(decryptedData), null);
+            }
+            catch (CryptographicException)
+            {
+                return (null, "Incorrect private key.\n Please select correct private key file.");
+            }
+        }
+
+        public static RSAParameters ReadPublicKeyFromXmlFile(string filePath)
+        {
+            using RSA rsa = RSA.Create();
+            try
+            {
+                rsa.FromXmlString(File.ReadAllText(filePath));
+            }
+            catch (CryptographicException)
+            {
+                throw new Exception("Invalid key \n Please generate valid keys");
+            }
+            return rsa.ExportParameters(false);
+        }
+
+        public static RSAParameters ReadPrivateKeyFromXmlFile(string filePath)
+        {
+            using RSA rsa = RSA.Create();
+            try
+            {
+                rsa.FromXmlString(File.ReadAllText(filePath));
+            }
+            catch (CryptographicException)
+            {
+                throw new Exception("Invalid key \nPlease select valid key");
+            }
+            return rsa.ExportParameters(true);
+        }
+
+        public static byte[]? EncodeAudio(byte[] audioData, byte[] textData)
+        {
+            int headerOffset = GetWavDataOffset(audioData);
+            if (headerOffset == -1)
+            {
+                Console.WriteLine("Invalid WAV file.");
+                return null;
+            }
+
+            int availableBytes = audioData.Length - headerOffset;
+            if (textData.Length * 8 + 32 > availableBytes)
+            {
+                return null;
+            }
+
+            byte[] encodedWavData = new byte[audioData.Length];
+            Array.Copy(audioData, encodedWavData, audioData.Length);
+
+            for (int i = 0; i < 32; i++)
+            {
+                byte bit = (byte)((textData.Length >> i) & 1);
+                int index = headerOffset + i;
+                encodedWavData[index] = (byte)((encodedWavData[index] & 0xFE) | bit);
+            }
+
+            for (int i = 0; i < textData.Length; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    byte bit = (byte)((textData[i] >> j) & 1);
+                    int index = headerOffset + 32 + i * 8 + j;
+                    encodedWavData[index] = (byte)((encodedWavData[index] & 0xFE) | bit);
+                }
+            }
+            return encodedWavData;
+        }
+
+        public static byte[]? DecodeAudio(byte[] encodedAudioData)
+        {
+            int headerOffset = GetWavDataOffset(encodedAudioData);
+            if (headerOffset == -1)
+            {
+                return null;
+            }
+
+            int textDataLength = 0;
+            for (int i = 0; i < 32; i++)
+            {
+                int index = headerOffset + i;
+                byte bit = (byte)(encodedAudioData[index] & 1);
+                textDataLength |= (bit << i);
+            }
+
+            if (textDataLength < 0 || textDataLength * 8 + 32 > encodedAudioData.Length - headerOffset)
+            {
+                return null;
+            }
+
+            byte[] decodedTextData = new byte[textDataLength];
+
+            for (int i = 0; i < textDataLength; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    int index = headerOffset + 32 + i * 8 + j;
+                    byte bit = (byte)(encodedAudioData[index] & 1);
+                    decodedTextData[i] |= (byte)(bit << j);
+                }
+            }
+
+            return decodedTextData;
+        }
+
+        public static bool IsValidWavFile(byte[] audioData)
+        {
+            if (audioData.Length < 12)
+            {
+                return false;
+            }
+
+            string fileType = Encoding.ASCII.GetString(audioData, 0, 4);
+            string format = Encoding.ASCII.GetString(audioData, 8, 4);
+
+            return fileType == "RIFF" && format == "WAVE";
+        }
+
+        public static bool IsValidXmlFile(string filePath)
+        {
+            try
+            {
+                XmlDocument xmlDoc = new XmlDocument();
+                xmlDoc.Load(filePath);
+                return true;
+            }
+            catch (XmlException)
+            {
+                return false;
+            }
+        }
+
+        public static bool IsValidTxtFile(string filePath)
+        {
+            return File.Exists(filePath) && Path.GetExtension(filePath) == ".txt";
+        }
+
+        public static int GetWavDataOffset(byte[] audioData)
+        {
+            const int RiffHeaderSize = 12;
+            int offset = RiffHeaderSize;
+
+            while (offset < audioData.Length - 8)
+            {
+                string chunkID = Encoding.ASCII.GetString(audioData, offset, 4);
+                int chunkSize = BitConverter.ToInt32(audioData, offset + 4);
+
+                if (chunkID == "data")
+                {
+                    return offset + 8;
+                }
+
+                offset += 8 + chunkSize;
+            }
+
+            return -1;
+        }
+    }
+}
+using System.Security.Cryptography;
+using System.Text;
+using System.Xml;
+
+namespace WAVAudioStego
+{
+    public static class Helper
+    {
+        public static async Task<byte[]> EncryptMessage(string message, RSAParameters publickey)
+        {
+            using Aes aes = Aes.Create();
+            using RSACryptoServiceProvider rsa = new();
+            byte[] encryptedData;
+            using MemoryStream output = new();
+            using CryptoStream cryptoStream = new(output, aes.CreateEncryptor(), CryptoStreamMode.Write);
+            await cryptoStream.WriteAsync(Encoding.Unicode.GetBytes(message));
+            await cryptoStream.FlushFinalBlockAsync();
+            encryptedData = output.ToArray();
+
+            rsa.ImportParameters(publickey);
+            byte[] encryptedKey = rsa.Encrypt(aes.Key, RSAEncryptionPadding.Pkcs1);
+            byte[] encryptedIV = rsa.Encrypt(aes.IV, RSAEncryptionPadding.Pkcs1);
+
+            byte[] result = new byte[encryptedKey.Length + encryptedIV.Length + encryptedData.Length];
+            Buffer.BlockCopy(encryptedKey, 0, result, 0, encryptedKey.Length);
+            Buffer.BlockCopy(encryptedIV, 0, result, encryptedKey.Length, encryptedIV.Length);
+            Buffer.BlockCopy(encryptedData, 0, result, encryptedKey.Length + encryptedIV.Length, encryptedData.Length);
+
+            return result;
+        }
+
+        public static async Task<(string, string)> DecryptMessage(byte[] encryptedMessage, RSAParameters privateKey)
+        {
+            try
+            {
+                using RSACryptoServiceProvider rsa = new();
+                rsa.ImportParameters(privateKey);
+
+                int keySize = rsa.KeySize / 8;
+                byte[] encryptedKey = new byte[keySize];
+                byte[] encryptedIV = new byte[keySize];
+                byte[] encryptedData = new byte[encryptedMessage.Length - 2 * keySize];
+
+                Buffer.BlockCopy(encryptedMessage, 0, encryptedKey, 0, keySize);
+                Buffer.BlockCopy(encryptedMessage, keySize, encryptedIV, 0, keySize);
+                Buffer.BlockCopy(encryptedMessage, 2 * keySize, encryptedData, 0, encryptedData.Length);
+
+                byte[] decryptedKey = rsa.Decrypt(encryptedKey, RSAEncryptionPadding.Pkcs1);
+                byte[] decryptedIV = rsa.Decrypt(encryptedIV, RSAEncryptionPadding.Pkcs1);
+
+                using Aes aes = Aes.Create();
+                aes.Key = decryptedKey;
+                aes.IV = decryptedIV;
+
+                byte[] decryptedData;
+                using MemoryStream output = new();
+                using CryptoStream cryptoStream = new(output, aes.CreateDecryptor(), CryptoStreamMode.Write);
+                await cryptoStream.WriteAsync(encryptedData);
+                await cryptoStream.FlushFinalBlockAsync();
+                decryptedData = output.ToArray();
+
+                return (Encoding.Unicode.GetString(decryptedData), null);
+            }
+            catch (CryptographicException)
+            {
+                return (null, "Incorrect private key.\n Please select correct private key file.");
+            }
+        }
+
+        public static RSAParameters ReadPublicKeyFromXmlFile(string filePath)
+        {
+            using RSA rsa = RSA.Create();
+            try
+            {
+                rsa.FromXmlString(File.ReadAllText(filePath));
+            }
+            catch (CryptographicException)
+            {
+                throw new Exception("Invalid key \n Please generate valid keys");
+            }
+            return rsa.ExportParameters(false);
+        }
+
+        public static RSAParameters ReadPrivateKeyFromXmlFile(string filePath)
+        {
+            using RSA rsa = RSA.Create();
+            try
+            {
+                rsa.FromXmlString(File.ReadAllText(filePath));
+            }
+            catch (CryptographicException)
+            {
+                throw new Exception("Invalid key \nPlease select valid key");
+            }
+            return rsa.ExportParameters(true);
+        }
+
+        public static byte[]? EncodeAudio(byte[] audioData, byte[] textData)
+        {
+            int headerOffset = GetWavDataOffset(audioData);
+            if (headerOffset == -1)
+            {
+                Console.WriteLine("Invalid WAV file.");
+                return null;
+            }
+
+            int availableBytes = audioData.Length - headerOffset;
+            if (textData.Length * 8 + 32 > availableBytes)
+            {
+                return null;
+            }
+
+            byte[] encodedWavData = new byte[audioData.Length];
+            Array.Copy(audioData, encodedWavData, audioData.Length);
+
+            for (int i = 0; i < 32; i++)
+            {
+                byte bit = (byte)((textData.Length >> i) & 1);
+                int index = headerOffset + i;
+                encodedWavData[index] = (byte)((encodedWavData[index] & 0xFE) | bit);
+            }
+
+            for (int i = 0; i < textData.Length; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    byte bit = (byte)((textData[i] >> j) & 1);
+                    int index = headerOffset + 32 + i * 8 + j;
+                    encodedWavData[index] = (byte)((encodedWavData[index] & 0xFE) | bit);
+                }
+            }
+            return encodedWavData;
+        }
+
+        public static byte[]? DecodeAudio(byte[] encodedAudioData)
+        {
+            int headerOffset = GetWavDataOffset(encodedAudioData);
+            if (headerOffset == -1)
+            {
+                return null;
+            }
+
+            int textDataLength = 0;
+            for (int i = 0; i < 32; i++)
+            {
+                int index = headerOffset + i;
+                byte bit = (byte)(encodedAudioData[index] & 1);
+                textDataLength |= (bit << i);
+            }
+
+            if (textDataLength < 0 || textDataLength * 8 + 32 > encodedAudioData.Length - headerOffset)
+            {
+                return null;
+            }
+
+            byte[] decodedTextData = new byte[textDataLength];
+
+            for (int i = 0; i < textDataLength; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    int index = headerOffset + 32 + i * 8 + j;
+                    byte bit = (byte)(encodedAudioData[index] & 1);
+                    decodedTextData[i] |= (byte)(bit << j);
+                }
+            }
+
+            return decodedTextData;
+        }
+
+        public static bool IsValidWavFile(byte[] audioData)
+        {
+            if (audioData.Length < 12)
+            {
+                return false;
+            }
+
+            string fileType = Encoding.ASCII.GetString(audioData, 0, 4);
+            string format = Encoding.ASCII.GetString(audioData, 8, 4);
+
+            return fileType == "RIFF" && format == "WAVE";
+        }
+
+        public static bool IsValidXmlFile(string filePath)
+        {
+            try
+            {
+                XmlDocument xmlDoc = new XmlDocument();
+                xmlDoc.Load(filePath);
+                return true;
+            }
+            catch (XmlException)
+            {
+                return false;
+            }
+        }
+
+        public static bool IsValidTxtFile(string filePath)
+        {
+            return File.Exists(filePath) && Path.GetExtension(filePath) == ".txt";
+        }
+
+        public static int GetWavDataOffset(byte[] audioData)
+        {
+            const int RiffHeaderSize = 12;
+            int offset = RiffHeaderSize;
+
+            while (offset < audioData.Length - 8)
+            {
+                string chunkID = Encoding.ASCII.GetString(audioData, offset, 4);
+                int chunkSize = BitConverter.ToInt32(audioData, offset + 4);
+
+                if (chunkID == "data")
+                {
+                    return offset + 8;
+                }
+
+                offset += 8 + chunkSize;
+            }
+
+            return -1;
+        }
+    }
+}
+using System.Security.Cryptography;
+using System.Text;
+using System.Xml;
+
+namespace WAVAudioStego
+{
+    public static class Helper
+    {
+        public static async Task<byte[]> EncryptMessage(string message, RSAParameters publickey)
+        {
+            using Aes aes = Aes.Create();
+            using RSACryptoServiceProvider rsa = new();
+            byte[] encryptedData;
+            using MemoryStream output = new();
+            using CryptoStream cryptoStream = new(output, aes.CreateEncryptor(), CryptoStreamMode.Write);
+            await cryptoStream.WriteAsync(Encoding.Unicode.GetBytes(message));
+            await cryptoStream.FlushFinalBlockAsync();
+            encryptedData = output.ToArray();
+
+            rsa.ImportParameters(publickey);
+            byte[] encryptedKey = rsa.Encrypt(aes.Key, RSAEncryptionPadding.Pkcs1);
+            byte[] encryptedIV = rsa.Encrypt(aes.IV, RSAEncryptionPadding.Pkcs1);
+
+            byte[] result = new byte[encryptedKey.Length + encryptedIV.Length + encryptedData.Length];
+            Buffer.BlockCopy(encryptedKey, 0, result, 0, encryptedKey.Length);
+            Buffer.BlockCopy(encryptedIV, 0, result, encryptedKey.Length, encryptedIV.Length);
+            Buffer.BlockCopy(encryptedData, 0, result, encryptedKey.Length + encryptedIV.Length, encryptedData.Length);
+
+            return result;
+        }
+
+        public static async Task<(string, string)> DecryptMessage(byte[] encryptedMessage, RSAParameters privateKey)
+        {
+            try
+            {
+                using RSACryptoServiceProvider rsa = new();
+                rsa.ImportParameters(privateKey);
+
+                int keySize = rsa.KeySize / 8;
+                byte[] encryptedKey = new byte[keySize];
+                byte[] encryptedIV = new byte[keySize];
+                byte[] encryptedData = new byte[encryptedMessage.Length - 2 * keySize];
+
+                Buffer.BlockCopy(encryptedMessage, 0, encryptedKey, 0, keySize);
+                Buffer.BlockCopy(encryptedMessage, keySize, encryptedIV, 0, keySize);
+                Buffer.BlockCopy(encryptedMessage, 2 * keySize, encryptedData, 0, encryptedData.Length);
+
+                byte[] decryptedKey = rsa.Decrypt(encryptedKey, RSAEncryptionPadding.Pkcs1);
+                byte[] decryptedIV = rsa.Decrypt(encryptedIV, RSAEncryptionPadding.Pkcs1);
+
+                using Aes aes = Aes.Create();
+                aes.Key = decryptedKey;
+                aes.IV = decryptedIV;
+
+                byte[] decryptedData;
+                using MemoryStream output = new();
+                using CryptoStream cryptoStream = new(output, aes.CreateDecryptor(), CryptoStreamMode.Write);
+                await cryptoStream.WriteAsync(encryptedData);
+                await cryptoStream.FlushFinalBlockAsync();
+                decryptedData = output.ToArray();
+
+                return (Encoding.Unicode.GetString(decryptedData), null);
+            }
+            catch (CryptographicException)
+            {
+                return (null, "Incorrect private key.\n Please select correct private key file.");
+            }
+        }
+
+        public static RSAParameters ReadPublicKeyFromXmlFile(string filePath)
+        {
+            using RSA rsa = RSA.Create();
+            try
+            {
+                rsa.FromXmlString(File.ReadAllText(filePath));
+            }
+            catch (CryptographicException)
+            {
+                throw new Exception("Invalid key \n Please generate valid keys");
+            }
+            return rsa.ExportParameters(false);
+        }
+
+        public static RSAParameters ReadPrivateKeyFromXmlFile(string filePath)
+        {
+            using RSA rsa = RSA.Create();
+            try
+            {
+                rsa.FromXmlString(File.ReadAllText(filePath));
+            }
+            catch (CryptographicException)
+            {
+                throw new Exception("Invalid key \nPlease select valid key");
+            }
+            return rsa.ExportParameters(true);
+        }
+
+        public static byte[]? EncodeAudio(byte[] audioData, byte[] textData)
+        {
+            int headerOffset = GetWavDataOffset(audioData);
+            if (headerOffset == -1)
+            {
+                Console.WriteLine("Invalid WAV file.");
+                return null;
+            }
+
+            int availableBytes = audioData.Length - headerOffset;
+            if (textData.Length * 8 + 32 > availableBytes)
+            {
+                return null;
+            }
+
+            byte[] encodedWavData = new byte[audioData.Length];
+            Array.Copy(audioData, encodedWavData, audioData.Length);
+
+            for (int i = 0; i < 32; i++)
+            {
+                byte bit = (byte)((textData.Length >> i) & 1);
+                int index = headerOffset + i;
+                encodedWavData[index] = (byte)((encodedWavData[index] & 0xFE) | bit);
+            }
+
+            for (int i = 0; i < textData.Length; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    byte bit = (byte)((textData[i] >> j) & 1);
+                    int index = headerOffset + 32 + i * 8 + j;
+                    encodedWavData[index] = (byte)((encodedWavData[index] & 0xFE) | bit);
+                }
+            }
+            return encodedWavData;
+        }
+
+        public static byte[]? DecodeAudio(byte[] encodedAudioData)
+        {
+            int headerOffset = GetWavDataOffset(encodedAudioData);
+            if (headerOffset == -1)
+            {
+                return null;
+            }
+
+            int textDataLength = 0;
+            for (int i = 0; i < 32; i++)
+            {
+                int index = headerOffset + i;
+                byte bit = (byte)(encodedAudioData[index] & 1);
+                textDataLength |= (bit << i);
+            }
+
+            if (textDataLength < 0 || textDataLength * 8 + 32 > encodedAudioData.Length - headerOffset)
+            {
+                return null;
+            }
+
+            byte[] decodedTextData = new byte[textDataLength];
+
+            for (int i = 0; i < textDataLength; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    int index = headerOffset + 32 + i * 8 + j;
+                    byte bit = (byte)(encodedAudioData[index] & 1);
+                    decodedTextData[i] |= (byte)(bit << j);
+                }
+            }
+
+            return decodedTextData;
+        }
+
+        public static bool IsValidWavFile(byte[] audioData)
+        {
+            if (audioData.Length < 12)
+            {
+                return false;
+            }
+
+            string fileType = Encoding.ASCII.GetString(audioData, 0, 4);
+            string format = Encoding.ASCII.GetString(audioData, 8, 4);
+
+            return fileType == "RIFF" && format == "WAVE";
+        }
+
+        public static bool IsValidXmlFile(string filePath)
+        {
+            try
+            {
+                XmlDocument xmlDoc = new XmlDocument();
+                xmlDoc.Load(filePath);
+                return true;
+            }
+            catch (XmlException)
+            {
+                return false;
+            }
+        }
+
+        public static bool IsValidTxtFile(string filePath)
+        {
+            return File.Exists(filePath) && Path.GetExtension(filePath) == ".txt";
+        }
+
+        public static int GetWavDataOffset(byte[] audioData)
+        {
+            const int RiffHeaderSize = 12;
+            int offset = RiffHeaderSize;
+
+            while (offset < audioData.Length - 8)
+            {
+                string chunkID = Encoding.ASCII.GetString(audioData, offset, 4);
+                int chunkSize = BitConverter.ToInt32(audioData, offset + 4);
+
+                if (chunkID == "data")
+                {
+                    return offset + 8;
+                }
+
+                offset += 8 + chunkSize;
+            }
+
+            return -1;
+        }
+    }
+}
